@@ -11,7 +11,7 @@
       <input type="text" id="title" name="title" autofocus ngModel>
     
       <div>
-      <button type="submit" class="add"alt="add" ><i class="fa fa-plus"></i></button>
+      <button type="submit" class="add grow"alt="add" ><i class="fa fa-plus"></i></button>
     </div>
   </form>
   <ul class="todo-list">
@@ -19,8 +19,8 @@
       <div *ngIf="!this.todo.isComplete">
         <div>{{this.todo.title}}</div>
         <div>
-         <button (click)="onComplete(this.todo.id)"class="check" alt="done"><i class="fa fa-check"></i></button>
-         <button (click)="onDelete(this.todo.id)"class="delete" alt="delete"><i class="fa fa-trash"></i></button>
+         <button (click)="onComplete(this.todo.id)"class="check grow" alt="done"><i class="fa fa-check"></i></button>
+         <button (click)="onDelete(this.todo.id)"class="delete grow" alt="delete"><i class="fa fa-trash"></i></button>
         </div>
       </div>
     </li>

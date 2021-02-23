@@ -1,6 +1,8 @@
 .home{
     height: 100vh;
-    background-color: black;
+    background-image: url("../assets/images/bg1.jpg");
+    
+    background-repeat: inherit;
     color: blanchedalmond;
 }
 .heading h1{
@@ -16,6 +18,10 @@ h1 {
      position: relative;
      line-height: 50px;
      
+}
+.grow:hover{
+    transform: scale(0.8);
+    transition: transform 0.5s ease;
 }
 .todo-form{
     display:flex;
