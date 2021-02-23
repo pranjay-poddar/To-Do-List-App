@@ -1,4 +1,4 @@
-# Todo
+# To-do List App
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
 
 # Instructions to use the Web App:
