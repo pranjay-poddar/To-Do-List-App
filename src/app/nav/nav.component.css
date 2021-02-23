@@ -1,0 +1,44 @@
+.navbar{
+    background-color: rgb(34, 34, 34);
+    font-family: quicksand;
+}
+.navbar-toggler{
+color:rgb(34, 34, 34);
+}
+.navbar-toggler-icon{
+    color:rgb(148, 148, 148) !important;
+    outline: none;
+    }
+.active{
+    background-color: #C72C41;
+    padding: 0;
+    border-radius: 2px;
+    color:rgb(255, 255, 255);
+}
+.nav-link{
+    color: rgb(235, 235, 235) !important;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 120%;
+}
+.grow:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
+button:focus {
+    outline: none;
+    background-color:#C72C41 ;
+}
+
+/*-----BIG SCREEN---*/
+@media (min-width: 1024px){
+    .navbar-nav{
+        width: 60%;
+    }
+}
+@media (max-width: 990px){
+    .nav-link{
+        margin-top: 10px;
+    }
+   
+}

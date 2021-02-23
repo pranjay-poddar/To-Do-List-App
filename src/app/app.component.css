@@ -1,0 +1,82 @@
+.home{
+    height: 100vh;
+    background-color: black;
+    color: blanchedalmond;
+}
+.heading h1{
+    font-size: 400%;
+    margin:0;
+}
+h1 {
+    letter-spacing:1px;
+    font-weight: 400;
+    color: #C72C41;
+    font-family: quicksand;
+     top: 20px;
+     position: relative;
+     line-height: 50px;
+     
+}
+.todo-form{
+    display:flex;
+    flex-direction:row ;
+    width: 100%;
+    justify-content: space-between;
+    color: blanchedalmond;
+    margin-top:15vh;
+}
+.todo-form input{
+    display:flex;
+    flex-direction:row ;
+    width: 100%;
+    font-size: 130%;
+    color:white;
+    border-bottom: 2px solid #C72C41;
+    outline: none;
+    background: #1b1b1b;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+
+.todo-list > li{
+    margin-top: 10px;
+    font-size: 130%;
+}
+.todo-list > li > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.add{
+  background: rgb(77, 187, 77);
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 220%;
+}
+.check {
+    color:white;
+    background: rgb(51, 139, 240);
+}
+.delete{
+    color:white;
+    background:rgb(241, 73, 73);
+    
+}
+button{
+    border-radius: 30%;
+    font-size: 180%;
+}
+
+.todo-list button{
+    margin-left: 10px;
+    border: none;
+    outline:none;  
+}
+.todo-list button .check{
+    background: greenyellow;
+}
+.todo-list button:hover{
+    background: rgb(37, 37, 37);
+}

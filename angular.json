@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "1ebabec7-4af3-4b23-8bb0-4a54998a177c"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -28,6 +31,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/material-icons/iconfont/material-icons.css",
+              "./node_modules/materialize-css/dist/css/materialize.min.css",
               "src/styles.css"
             ],
             "scripts": []
