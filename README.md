@@ -5,7 +5,7 @@
   ![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)
   
   <br>
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
+ [Deployed Project Link](https://pranjay-poddar.github.io/To-Do-List-App/)
 
 <h2> Instructions to use the Web App:</h2>
 
