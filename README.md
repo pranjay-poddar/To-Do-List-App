@@ -5,7 +5,7 @@
   ![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)
   
   <br>
- [Deployed Project Link](https://pranjay-poddar.github.io/To-Do-List-App/)
+ Deployed Project Link - https://pranjay-poddar.github.io/To-Do-List-App/
 
 <h2> Instructions to use the Web App:</h2>
 
