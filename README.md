@@ -1,27 +1,18 @@
-# Todo
+<h1>To-do List App</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
+  ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
+  ![forthebadge](https://forthebadge.com/images/badges/uses-brains.svg)
+  ![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)
+  
+  <br>
+ Deployed Project Link - https://pranjay-poddar.github.io/To-Do-List-App/
 
-## Development server
+<h2> Instructions to use the Web App:</h2>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ <ul>1) Add any tasks to the list by writing in the input field and by pressing add(plus) button.</ul>
+ <ul>2) Once the task is completed press the check(tick) button automatically that task will be added in the completed list.</ul>
+ <ul>3) If you made a mistake or changed your plans and want to delete a task then press the trash(delete) button to remove a task from the list.</ul>
+ <ul>4) App is fully responsive and made simple considering the usage by all age groups of people.</ul>
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Project is developed on Angular 9 node (v15.5.1) and npm(v6.14.11) and deployed on github pages.
