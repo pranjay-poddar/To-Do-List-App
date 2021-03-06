@@ -1,7 +1,6 @@
 .home{
     height: 100vh;
     background-image: url("../assets/images/bg1.jpg");
-    
     background-repeat: inherit;
     color: blanchedalmond;
 }
