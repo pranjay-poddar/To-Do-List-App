@@ -1,43 +1,41 @@
-<app-nav></app-nav>
-
 <div class="container-fluid padding home">
-  <div class="text-center heading">
-  <h1>To Do List</h1>
-  </div>
-  <div class="row d-flex justify-content-center text-center padding">
-    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 col-xl-5">
-  <form class="todo-form" #f="ngForm" (ngSubmit)="onSubmit(f)">
-    
-      <input type="text" id="title" name="title" autofocus ngModel>
-    
-      <div>
-      <button type="submit" class="add grow"alt="add" ><i class="fa fa-plus"></i></button>
+    <div class="text-center heading">
+        <h1>To Do List</h1>
     </div>
-  </form>
-  <ul class="todo-list">
-    <li *ngFor="let todo of todos">
-      <div *ngIf="!this.todo.isComplete">
-        <div>{{this.todo.title}}</div>
-        <div>
-         <button (click)="onComplete(this.todo.id)"class="check grow" alt="done"><i class="fa fa-check"></i></button>
-         <button (click)="onDelete(this.todo.id)"class="delete grow" alt="delete"><i class="fa fa-trash"></i></button>
-        </div>
-      </div>
-    </li>
+    <div class="row d-flex justify-content-center text-center padding">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 col-xl-5">
+            <form class="todo-form" #f="ngForm" (ngSubmit)="onSubmit(f)">
 
-    <br>
-    <br>
-    <h5>Completed List</h5>
-    <br>
-    <li *ngFor="let todo of todos">
-      <div *ngIf="this.todo.isComplete">
-        <div>{{this.todo.title}}</div>
-        <div>
-         <button (click)="onComplete(this.todo.id)"class="check" alt="done"><i class="fa fa-check"></i></button>
+                <input type="text" id="title" name="title" autofocus ngModel>
+
+                <div>
+                    <button type="submit" class="add grow" alt="add"><i class="fa fa-plus"></i></button>
+                </div>
+            </form>
+            <ul class="todo-list">
+                <li *ngFor="let todo of todos">
+                    <div *ngIf="!this.todo.isComplete">
+                        <div>{{this.todo.title}}</div>
+                        <div>
+                            <button (click)="onComplete(this.todo.id)" class="check grow" alt="done"><i class="fa fa-check"></i></button>
+                            <button (click)="onDelete(this.todo.id)" class="delete grow" alt="delete"><i class="fa fa-trash"></i></button>
+                        </div>
+                    </div>
+                </li>
+
+                <br>
+                <br>
+                <h5>Completed List</h5>
+                <br>
+                <li *ngFor="let todo of todos">
+                    <div *ngIf="this.todo.isComplete">
+                        <div>{{this.todo.title}}</div>
+                        <div>
+                            <button (click)="onComplete(this.todo.id)" class="check" alt="done"><i class="fa fa-check"></i></button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
-      </div>
-    </li>
-  </ul>
-</div>
-</div>
+    </div>
 </div>

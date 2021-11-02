@@ -1,41 +1,46 @@
-.home{
+.home {
     height: 100vh;
     background-image: url("../assets/images/bg1.jpg");
     background-repeat: inherit;
     color: blanchedalmond;
 }
-.heading h1{
+
+.heading h1 {
     font-size: 400%;
-    margin:0;
+    margin: 0;
 }
+
 h1 {
-    letter-spacing:1px;
+    letter-spacing: 1px;
     font-weight: 400;
     color: #C72C41;
     font-family: quicksand;
-     top: 20px;
-     position: relative;
-     line-height: 50px;
-     
+    top: 20px;
+    position: relative;
+    line-height: 50px;
 }
-.grow:hover{
+
+.grow:hover {
     transform: scale(0.8);
     transition: transform 0.5s ease;
 }
-.todo-form{
-    display:flex;
-    flex-direction:row ;
+
+.todo-form {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     justify-content: space-between;
     color: blanchedalmond;
-    margin-top:15vh;
+    margin-top: 15vh;
 }
-.todo-form input{
-    display:flex;
-    flex-direction:row ;
+
+.todo-form input {
+    display: flex;
+    flex-direction: row;
     width: 100%;
+    padding: 0 10px;
     font-size: 130%;
-    color:white;
+    color: white;
     border-bottom: 2px solid #C72C41;
     outline: none;
     background: #1b1b1b;
@@ -43,45 +48,50 @@ h1 {
     margin-right: 5px;
 }
 
-
-.todo-list > li{
+.todo-list>li {
     margin-top: 10px;
     font-size: 130%;
 }
-.todo-list > li > div{
+
+.todo-list>li>div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.add{
-  background: rgb(77, 187, 77);
-  color: white;
-  border: none;
-  outline: none;
-  font-size: 220%;
+
+.add {
+    background: rgb(77, 187, 77);
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 220%;
 }
+
 .check {
-    color:white;
+    color: white;
     background: rgb(51, 139, 240);
 }
-.delete{
-    color:white;
-    background:rgb(241, 73, 73);
-    
+
+.delete {
+    color: white;
+    background: rgb(241, 73, 73);
 }
-button{
+
+button {
     border-radius: 30%;
     font-size: 180%;
 }
 
-.todo-list button{
+.todo-list button {
     margin-left: 10px;
     border: none;
-    outline:none;  
+    outline: none;
 }
-.todo-list button .check{
+
+.todo-list button .check {
     background: greenyellow;
 }
-.todo-list button:hover{
+
+.todo-list button:hover {
     background: rgb(37, 37, 37);
 }
